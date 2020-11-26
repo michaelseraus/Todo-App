@@ -45,6 +45,12 @@
   color: whitesmoke !important;
 }
 
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #006edc;
+  color: black;
+}
+
 @import "./toDoList";
 @import "./todo";
 @import "./datum";
