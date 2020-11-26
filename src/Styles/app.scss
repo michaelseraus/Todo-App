@@ -38,7 +38,7 @@
   color: whitesmoke;
 }
 .react-calendar button:enabled:hover {
-  color: black;
+  color: black !important;
 }
 
 @import "./toDoList";
