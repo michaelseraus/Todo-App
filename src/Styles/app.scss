@@ -29,7 +29,7 @@
 }
 
 .react-calendar {
-  // background: #1f1e1e !important;
+  background: #1f1e1e !important;
 }
 
 .react-calendar__month-view__days__day--neighboringMonth {
@@ -37,7 +37,7 @@
 }
 
 .react-calendar__month-view__days__day--weekend {
-  color: #811a0f !important;
+  color: #811a0f;
 }
 
 @import "./toDoList";
