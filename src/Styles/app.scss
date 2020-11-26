@@ -51,6 +51,10 @@
   background-color: #006edc !important;
   color: black !important;
 }
+.react-calendar__tile--active {
+  background: #006edc;
+  color: black !important;
+}
 
 @import "./toDoList";
 @import "./todo";
