@@ -52,7 +52,7 @@
 }
 .react-calendar__tile--active {
   background: #006edc;
-  color: black;
+  color: black !important;
 }
 
 @import "./toDoList";
