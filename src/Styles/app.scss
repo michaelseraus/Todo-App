@@ -42,14 +42,13 @@
   color: #006edc;
 }
 
-.react-calendar__month-view__days__day--neighboringMonth {
-  color: whitesmoke !important;
-}
-
 .react-calendar__tile:enabled:hover,
 .react-calendar__tile:enabled:focus {
   background-color: #006edc !important;
   color: black !important;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: whitesmoke !important;
 }
 
 @import "./toDoList";
