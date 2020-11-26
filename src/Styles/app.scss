@@ -31,14 +31,9 @@
 .react-calendar {
   background: #1f1e1e !important;
 }
-.react-calendar button {
-  color: #006edc;
-}
+
 .react-calendar__month-view__days__day--neighboringMonth {
   color: whitesmoke;
-}
-.react-calendar__month-view__weekdays {
-  color: #006edc !important;
 }
 
 @import "./toDoList";
