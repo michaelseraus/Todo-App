@@ -39,8 +39,8 @@
 }
 .react-calendar__tile:enabled:hover,
 .react-calendar__tile:enabled:focus {
-  background-color: #006edc;
-  color: black;
+  background-color: #006edc !important;
+  color: black !important;
 }
 
 @import "./toDoList";
