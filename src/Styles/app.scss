@@ -36,6 +36,10 @@
   color: whitesmoke;
 }
 
+.react-calendar__month-view__days__day--weekend {
+  color: #811a0f !important;
+}
+
 @import "./toDoList";
 @import "./todo";
 @import "./datum";
