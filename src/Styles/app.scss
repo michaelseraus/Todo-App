@@ -5,11 +5,18 @@
 }
 .App {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100vw;
   background-color: black;
+}
+
+.col {
+  display: flex;
+}
+.container {
+  margin-top: 2rem;
 }
 
 .vacation {

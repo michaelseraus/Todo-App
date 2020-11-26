@@ -5,6 +5,11 @@ import ToDoList from "./Components/ToDoList";
 // data
 import data from "./data.json";
 import Datum from "./Components/Datum";
+// bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function App() {
   // state
@@ -39,27 +44,38 @@ function App() {
 
   const clickHandler = (date) => {
     if (formatDate(date) === toDoDate) setIsShowing(!isShowing);
+    console.log(toDoDate);
   };
 
   return (
     <div className="App">
-      <Calendar
-        setToDoDate={setToDoDate}
-        onChange={onChangeHandler}
-        tileClassName={storedDatesHandler}
-        tileContent={vacationTitleHandler}
-        onClickDay={clickHandler}
-      />
-      <Datum toDoDate={toDoDate} />
-      <ToDoList
-        inputValue={inputValue}
-        setInputValue={setInputValue}
-        todos={todos}
-        setTodos={setTodos}
-        toDoDate={toDoDate}
-        setToDoDate={setToDoDate}
-        isShowing={isShowing}
-      />
+      <Container fluid>
+        <Row className="justify-content-md-center">
+          <Col md={4}>
+            <Calendar
+              setToDoDate={setToDoDate}
+              onChange={onChangeHandler}
+              tileClassName={storedDatesHandler}
+              tileContent={vacationTitleHandler}
+              onClickDay={clickHandler}
+            />
+          </Col>
+          <Col md="auto">
+            <Datum toDoDate={toDoDate} />
+          </Col>
+          <Col md={4}>
+            <ToDoList
+              inputValue={inputValue}
+              setInputValue={setInputValue}
+              todos={todos}
+              setTodos={setTodos}
+              toDoDate={toDoDate}
+              setToDoDate={setToDoDate}
+              isShowing={isShowing}
+            />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .todo-container {
   height: 400px;
   width: 325px;
-  background-color: /* #ecf0f1 */ #1f1e1e;
+  background-color: #1f1e1e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,4 +45,10 @@
 
 .hidden {
   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .todo.container {
+    margin: 3rem;
+  }
 }
