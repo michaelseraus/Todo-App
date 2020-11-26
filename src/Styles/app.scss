@@ -37,6 +37,9 @@
 .react-calendar__month-view__days__day--neighboringMonth {
   color: whitesmoke;
 }
+.react-calendar button:enabled:hover {
+  color: black;
+}
 
 @import "./toDoList";
 @import "./todo";
