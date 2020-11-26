@@ -35,10 +35,6 @@
   color: whitesmoke !important;
 }
 
-// .react-calendar button {
-//   color: #006edc;
-// }
-
 .react-calendar__month-view__days__day--weekend {
   color: #811a0f !important;
 }
@@ -50,6 +46,10 @@
 .react-calendar__tile:enabled:focus {
   background-color: #006edc !important;
   color: black !important;
+}
+.react-calendar__tile--active {
+  background: #006edc;
+  color: black;
 }
 
 @import "./toDoList";
