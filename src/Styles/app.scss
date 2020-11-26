@@ -37,6 +37,9 @@
 .react-calendar__month-view__days__day--neighboringMonth {
   color: whitesmoke;
 }
+.react-calendar__month-view__weekdays {
+  color: #006edc !important;
+}
 .react-calendar__tile:enabled:hover,
 .react-calendar__tile:enabled:focus {
   background-color: #006edc !important;
