@@ -1,0 +1,19 @@
+.date {
+  color: #006edc;
+  border-radius: 9px;
+  position: absolute;
+  top: 5rem;
+  left: 50%, translate(-50%, -50%);
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #006edc, 0 0 20px #006edc, 0 0 30px #006edc, 0 0 40px #006edc;
+    }
+    to {
+      text-shadow: 0 0 20px #006edc, 0 0 30px #006edc, 0 0 40px #006edc;
+    }
+  }
+}
