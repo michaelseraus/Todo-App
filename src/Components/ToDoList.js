@@ -8,7 +8,7 @@ const ToDoList = ({ isShowing, toDoDate, setTodos, todos, setInputValue, inputVa
     setInputValue(event.target.value);
   };
   const submitTodo = () => {
-    if (inputValue === "") return alert("Hey dumbass! Make sure to add a task!!");
+    if (inputValue === "") return alert("Be sure to add a task");
     setTodos([...todos, { date: toDoDate, text: inputValue, completed: false, id: uuidv4() }]);
     setInputValue("");
   };
